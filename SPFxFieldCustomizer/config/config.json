@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kpi-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/kpi/KpiFieldCustomizer.js",
+          "manifest": "./src/extensions/kpi/KpiFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KpiFieldCustomizerStrings": "lib/extensions/kpi/loc/{locale}.js"
+  }
+}

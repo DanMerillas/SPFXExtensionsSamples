@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-form-customizer-sample-client-side-solution",
+    "id": "fb7fa004-281b-41d2-91d9-b42ff4e041f0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-fx-form-customizer-sample description"
+      },
+      "longDescription": {
+        "default": "sp-fx-form-customizer-sample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-form-customizer-sample Feature",
+        "description": "The feature that activates elements of the sp-fx-form-customizer-sample solution.",
+        "id": "c777e31f-b94e-4a27-a4f5-52f6e5a601f5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-form-customizer-sample.sppkg"
+  }
+}

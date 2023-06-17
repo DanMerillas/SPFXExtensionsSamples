@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://indrasistemassa.sharepoint.com/sites/Pruebas2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "930453a0-6312-480e-9a90-74cb4e33465f",
+        "PageType": 8,
+        "RootFolder": "/sites/Pruebas2/Lists/test",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "newForm_NewForm": {
+      "pageUrl": "https://indrasistemassa.sharepoint.com/sites/Pruebas2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "930453a0-6312-480e-9a90-74cb4e33465f",
+        "PageType": 8,
+        "RootFolder": "/sites/Pruebas2/Lists/test",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "newForm_EditForm": {
+      "pageUrl": "https://indrasistemassa.sharepoint.com/sites/Pruebas2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "930453a0-6312-480e-9a90-74cb4e33465f",
+        "PageType": 6,
+        "RootFolder": "/sites/Pruebas2/Lists/test",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "newForm_ViewForm": {
+      "pageUrl": "https://indrasistemassa.sharepoint.com/sites/Pruebas2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "930453a0-6312-480e-9a90-74cb4e33465f",
+        "PageType": 4,
+        "RootFolder": "/sites/Pruebas2/Lists/test",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

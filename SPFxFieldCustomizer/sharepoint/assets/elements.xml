@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{da27b5ac-7dd4-4e47-8b33-9f86b19f1947}"
+            Name="SPFxKPI"
+            DisplayName="KPI"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="071416b8-fdc8-4c7d-864b-55b209b51f94">
+    </Field>
+</Elements>

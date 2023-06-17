@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://indrasistemassa.sharepoint.com/sites/Pruebas2/SitePages/Home.aspx",
+      "customActions": {
+        "8d55ecd1-3f52-44c4-9b3d-815397e67a9c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "footerExtension": {
+      "pageUrl": "https://indrasistemassa.sharepoint.com/sites/Pruebas2/SitePages/Home.aspx",
+      "customActions": {
+        "8d55ecd1-3f52-44c4-9b3d-815397e67a9c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

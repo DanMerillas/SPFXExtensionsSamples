@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "sp-fx-form-customizer-sample",
+    "libraryId": "fb7fa004-281b-41d2-91d9-b42ff4e041f0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-fx-form-customizer-sample",
+    "solutionShortDescription": "sp-fx-form-customizer-sample description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}
