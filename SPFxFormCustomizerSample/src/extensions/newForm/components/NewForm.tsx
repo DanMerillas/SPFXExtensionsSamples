@@ -28,11 +28,14 @@ export default class NewForm extends React.Component<INewFormProps, {}> {
 
     const modo = this.props.displayMode === 8 ? 'Nuevo' : this.props.displayMode === 4 ? 'Ver' : 'Editar'
 
+    
+
     return <div style={{ margin: '50px' }}>
       <h1>Lista:{this.props.context.list.title}</h1>
       <h2>Modo:{modo}</h2>
       <p><PacmanLoader color="#36d7b7" /></p>
-      <p>Este es el formulario personalizado</p>
+      <p>Este es el formulario personalizado </p>
+      {this.props.context?.item && <p>{`Id: ${this.props.context.item.ID}   ->   Titulo: ${this.props.context.item.Title}`}</p>}
     </div>;
   }
 }

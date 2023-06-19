@@ -7,7 +7,7 @@
       "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "customActions": {
         "72b91ad0-51d6-4cac-bd20-85d9530ce744": {
-          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "location": "ClientSideExtension.ListViewCommandSet",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
             "sampleTextTwo": "This command is always visible."
@@ -19,7 +19,7 @@
       "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "customActions": {
         "72b91ad0-51d6-4cac-bd20-85d9530ce744": {
-          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "location": "ClientSideExtension.ListViewCommandSet",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
             "sampleTextTwo": "This command is always visible."
